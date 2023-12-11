@@ -1,0 +1,103 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: antiquewhite;
+    position:relative;
+    width: 100%;
+     
+}
+
+.title{
+    
+    color: darkcyan;
+}
+
+.tag ul {
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+    margin: 30px;
+}
+.button{
+    margin: 30px;
+     margin-left: 16px ;
+}
+
+
+/* starts the coding of box section  */
+
+
+.boxtitle{
+    display: flex;
+    padding: 20px ;
+    justify-content: center;
+    font-family: system-ui;
+    /* margin: 34px; */
+}
+
+.box{
+    padding: 34px ;
+    margin: 34px;
+    color: orange;
+    border: 2px solid black;
+    background-color: #0b2427;
+    display: grid;
+ grid-template-columns: 300px 250px;;
+ /* grid-column: 2; */
+
+
+}
+
+.java{
+    padding: 34px ;
+    margin: 34px;
+    color: orange;
+    border: 2px solid black;
+    /* display: grid; */
+    font-size: 30px;
+    font-weight: bolder
+}
+
+.javascript{
+    padding: 34px ;
+    margin: 34px;
+    color:rgb(230, 230, 26);
+    border: 2px solid black;
+    /* display: grid; */
+    font-size: 30px;
+    font-weight: bolder
+}
+
+.python{
+    padding: 34px ;
+    margin: 34px;
+    color:blue;
+    border: 2px solid black;
+    /* display: grid; */
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.c{
+    padding: 34px ;
+    margin: 34px;
+    color: red;
+    border: 2px solid black;
+    /* display: grid; */
+    font-size: 30px;
+    font-weight: bolder
+}
+
+/* footer section as start */
+
+.foot{
+    padding: 34px ;
+    margin: 34px;
+    background-color: rgb(225, 250, 215);
+    
+    
+}
+ 
